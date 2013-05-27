@@ -1,0 +1,20 @@
+{
+    "name":         "braincrafted/doctrine-bundle",
+    "keywords":     ["doctrine"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors":     [
+        {
+            "name":     "Florian Eckerstorfer",
+            "email":    "florian@eckerstorfer.co",
+            "homepage": "http://florianeckerstorfer.com"
+        }
+    ],
+    "require":      {
+        "php":  ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": { "Bc\\Bundle\\DoctrineBundle": "" }
+    },
+    "target-dir": "Bc/Bundle/DoctrineBundle"
+}
