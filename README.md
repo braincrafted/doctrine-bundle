@@ -5,6 +5,7 @@ A collection of useful extensions for Doctrine.
 
 By [Florian Eckerstorfer](http://florianeckerstorfer.com).
 
+
 Features
 --------
 
@@ -12,17 +13,23 @@ Features
 
 - `UTCDateTime`: Converts dates into UTC before storing them in the database
 
+### DQL Functions
+
+- `DATE(expr)`
+
+
 Installation
 ------------
 
-### Data Types
-
-The data types contained in this bundle must be added to `app/config/config.yml`.
-
+    # app/config/config.yml
     doctrine:
         dbal:
             types:
                 datetime: Bc\Bundle\DoctrineBundle\DBAL\Type\UTCDateTimeType
+        orm:
+            dql:
+                datetime_functions:
+                    DATE: Bc\Bundle\DoctrineBundle\DQL\DateFunction
 
 
 License
