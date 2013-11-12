@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of BraincraftedDoctrineBundle.
+ * This file is part of BcDoctrineBundle.
  * (c) 2013 Florian Eckerstorfer
  */
 
@@ -9,7 +9,7 @@ namespace Braincrafted\Bundle\DoctrineBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * BraincraftedDoctrineBundle
+ * BcDoctrineBundle
  *
  * @category   Bundle
  * @subpackage DBAL

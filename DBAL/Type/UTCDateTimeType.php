@@ -1,10 +1,10 @@
 <?php
 /**
- * This file is part of BcDoctrineBundle.
+ * This file is part of BraincraftedDoctrineBundle.
  * (c) 2013 Florian Eckerstorfer
  */
 
-namespace Bc\Bundle\DoctrineBundle\DBAL\Type;
+namespace Braincrafted\Bundle\DoctrineBundle\DBAL\Type;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\ConversionException;
@@ -17,7 +17,7 @@ use Doctrine\DBAL\Types\DateTimeType;
  * with some fixed bugs.
  *
  * @category   DBALType
- * @package    BcDoctrineBundle
+ * @package    BraincraftedDoctrineBundle
  * @subpackage DBAL
  * @see        http://docs.doctrine-project.org/en/2.0.x/cookbook/working-with-datetime.html
  */
