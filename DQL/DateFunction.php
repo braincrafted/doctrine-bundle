@@ -1,10 +1,10 @@
 <?php
 /**
- * This file is part of BcDoctrineBundle.
+ * This file is part of BraincraftedDoctrineBundle.
  * (c) 2013 Florian Eckerstorfer
  */
 
-namespace Bc\Bundle\DoctrineBundle\DQL;
+namespace Braincrafted\Bundle\DoctrineBundle\DQL;
 
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 use Doctrine\ORM\Query\Lexer;
@@ -18,7 +18,7 @@ use Doctrine\ORM\Query\SqlWalker;
  *
  *     DateFunction ::=  "DATE" "(" ArithmeticPrimary ")"
  *
- * @package    BcDoctrineBundle
+ * @package    BraincraftedDoctrineBundle
  * @subpackage DQL
  * @author     Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright  2013 Florian Eckerstorfer

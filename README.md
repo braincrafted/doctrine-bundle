@@ -25,11 +25,11 @@ Installation
     doctrine:
         dbal:
             types:
-                datetime: Bc\Bundle\DoctrineBundle\DBAL\Type\UTCDateTimeType
+                datetime: Braincrafted\Bundle\DoctrineBundle\DBAL\Type\UTCDateTimeType
         orm:
             dql:
                 datetime_functions:
-                    DATE: Bc\Bundle\DoctrineBundle\DQL\DateFunction
+                    DATE: Braincrafted\Bundle\DoctrineBundle\DQL\DateFunction
 
 
 License

@@ -14,7 +14,7 @@
         "php":  ">=5.3.3"
     },
     "autoload": {
-        "psr-0": { "Bc\\Bundle\\DoctrineBundle": "" }
+        "psr-0": { "Braincrafted\\Bundle\\DoctrineBundle": "" }
     },
-    "target-dir": "Bc/Bundle/DoctrineBundle"
+    "target-dir": "Braincrafted/Bundle/DoctrineBundle"
 }
