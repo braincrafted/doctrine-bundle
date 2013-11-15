@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of BraincraftedDoctrineBundle.
  * (c) 2013 Florian Eckerstorfer
@@ -19,6 +20,8 @@ use Doctrine\DBAL\Types\DateTimeType;
  * @category   DBALType
  * @package    BraincraftedDoctrineBundle
  * @subpackage DBAL
+ * @copyright  2013 Florian Eckerstorfer
+ * @license    http://opensource.org/licenses/MIT The MIT License
  * @see        http://docs.doctrine-project.org/en/2.0.x/cookbook/working-with-datetime.html
  */
 class UTCDateTimeType extends DateTimeType

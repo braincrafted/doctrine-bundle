@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of BraincraftedDoctrineBundle.
  * (c) 2013 Florian Eckerstorfer

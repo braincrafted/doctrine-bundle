@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * This file is part of BraincraftedDoctrineBundle.
+ * (c) 2013 Florian Eckerstorfer
+ */
+
 namespace Braincrafted\Bundle\DoctrineBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -8,9 +13,12 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
 /**
- * This is the class that loads and manages your bundle configuration
+ * BraincraftedDoctrineExtension
  *
- * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
+ * @package    BraincraftedDoctrineBundle
+ * @subpackage DependencyInjection
+ * @copyright  2013 Florian Eckerstorfer
+ * @license    http://opensource.org/licenses/MIT The MIT License
  */
 class BraincraftedDoctrineExtension extends Extension
 {
